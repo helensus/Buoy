@@ -22,6 +22,7 @@ library(lme4)
 library(purrr)
 library(readr)
 library(tibble)
+library(citation)
 ```
 
 # Introduction
@@ -299,5 +300,22 @@ There are several additional considerations to help to fully understand this stu
 
 ## Reference
 
-*https://www.ndbc.noaa.gov/station_page.php?station=44013*
+U.S. Dept. of Commerce (2020) National Oceanic and Atmospheric Administration's National Data Buoy Center. Available at: https://www.ndbc.noaa.gov/station_page.php?station=44013 (Accessed: 24 Sep 2020).
+
+```{r}
+package2zenodo("tidyverse")
+package2zenodo("stringr")
+package2zenodo("tidyr")
+package2zenodo("lubridate")
+package2zenodo("arm")
+package2zenodo("ggplot2")
+package2zenodo("dplyr")
+package2zenodo("forcats")
+package2zenodo("lme4")
+package2zenodo("purrr")
+package2zenodo("readr")
+package2zenodo("tibble")
+package2zenodo("citation")
+```
+
 
